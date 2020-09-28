@@ -17,5 +17,5 @@ public class H022 extends Applet {
         g.drawString("Harria", 50, 60);
         super.paint(g);
         g.setColor(Color.red);
-        g.drawString("Doeve", 80, 60);
+        g.drawString("Doeve", 70, 60);
     }
