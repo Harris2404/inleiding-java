@@ -1,0 +1,2 @@
+public class hoofdstuk5 {
+}
