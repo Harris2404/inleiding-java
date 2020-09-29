@@ -14,7 +14,8 @@ public class H022 extends Applet {
     public void paint (Graphics g) {
         super.paint(g);
         g.setColor(Color.blue);
-        g.drawString("Harria", 50, 60);
+        g.drawString("Harrias
+", 50, 60);
         super.paint(g);
         g.setColor(Color.red);
         g.drawString("Doeve", 70, 60);
