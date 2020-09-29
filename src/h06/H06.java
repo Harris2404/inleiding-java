@@ -1,5 +1,5 @@
 
-package HO6;
+package h06;
 
         import java.awt.*;
         import java.applet.*;
@@ -30,8 +30,9 @@ public class H06 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString("eindbedrag voor Jan: " + Jan,20,20);
-        g.drawString("eindbedrag voor Ali: " + Ali,20,40);
-        g.drawString("eindbedrag voor Jeannette: " + Jeannette,20,60);
-        g.drawString("eindbedrag voor Harris: " + Harris,20,80);
+        g.drawString("eindbedrag voor Jan: " + Jan, 20, 20);
+        g.drawString("eindbedrag voor Ali: " + Ali, 20, 40);
+        g.drawString("eindbedrag voor Jeannette: " + Jeannette, 20, 60);
+        g.drawString("eindbedrag voor Harris: " + Harris, 20, 80);
     }
+}
