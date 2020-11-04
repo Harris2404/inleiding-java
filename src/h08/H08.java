@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class applet {
+public class H08Applet {
 }
 
     //Declaratie
@@ -17,12 +17,12 @@ public class applet {
     public void init() {
 
         //Initalisatie
-        Tekstvak = new TextField("Klik hier");
-        OkayKnop = new Button("Okay");
-        Label = new Label("Type hier iets!");
+        Tekstvak = new TextField("druk hier");
+        OkayKnop = new Button("Ok");
+        Label = new Label("Type hier!");
         ResetKnop = new Button("Reset");
-        OkayKnop.addActionListener(new HO8.Opdracht1.KnoplistenerOkay() );
-        ResetKnop.addActionListener(new HO8.Opdracht1.KnoplistenerReset() );
+        OkayKnop.addActionListener(new KnoplistenerOkay() );
+        ResetKnop.addActionListener(new KnoplistenerReset() );
         add(Label);
         add(Tekstvak);
         add(OkayKnop);
