@@ -40,7 +40,7 @@ public class H08Applet {
             repaint();
         }
 
-    }
+    } .
 
     class KnoplistenerReset implements ActionListener {
         public void actionPerformed( ActionEvent e) {

@@ -32,3 +32,4 @@ public void paint(Graphics g) {
 private class Tekstvak implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
+.
