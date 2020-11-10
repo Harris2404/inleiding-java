@@ -12,6 +12,6 @@ import java.awt.*;
             for(int i=1; i=10; i++) {
                 g.drawLine(50 , y, 150, y );
                 g.drawLine(60 , y, 160, y );
-                g.drawLine(75 , y, 170, y );
+                g.drawLine(70 , y, 170, y );
             }
         }
